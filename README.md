@@ -1,7 +1,7 @@
 # Programação Funcional
 Exercícios resolvidos da disciplina de Programação Funcional
 
-## Execucução
+## Execução
 ```ghci
 ghci
 :l nomeDoArquivo.hs
