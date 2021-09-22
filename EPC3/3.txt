@@ -1,0 +1,5 @@
+O que esta errado com a definicao da funcao todosDiferentes abaixo?
+todosDiferentes n m p = ((n= = m) && (m= = p))
+
+Ficou faltando n/=p
+correto seria: todosDiferentes n m p = ((n/= m) && (m/= p) && (n/=p)) 

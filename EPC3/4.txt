@@ -1,0 +1,8 @@
+Não. Um caso que não daria certo seria o seguinte exemplo:
+n = -1
+m = 1
+p = 0
+
+n+m+p = 0
+3*p = 0
+o resultado irá retornar true, porém os valores não são iguais, logo a função teste é diferente da função todosIguais
