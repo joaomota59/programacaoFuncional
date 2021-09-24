@@ -1,3 +1,8 @@
+{-
+Refaca o exercicio anterior adimitindo a possibilidade de entradas negativas e de que o
+segundo argumento seja menor que o primeiro.
+-}
+
 replica :: String -> Int -> String
 replica a b
     |b == 1 = a
