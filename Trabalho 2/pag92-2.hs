@@ -1,3 +1,8 @@
+{-
+Uma funcao que informa todas as pessoas que tomaram emprestado um determinado
+livro.
+-}
+
 type Pessoa = String
 type Livro = String
 type BancodeDados = [(Pessoa, Livro)]
