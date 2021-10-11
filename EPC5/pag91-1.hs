@@ -1,4 +1,8 @@
-type Tripla = (Int,Int,Int)
+type Trio = (Int,Int,Int)
 
-somaTriplas :: Tripla -> Int
-somaTriplas (x,y,z) = x + y + z
+somaTrio :: Trio -> Int
+somaTrio (x,y,z) = x + y + z
+
+somaTriplas :: [Trio] -> Int
+somaTriplas [] = 0
+somaTriplas (x:xs) = somaTrio x + somaTriplas xs
