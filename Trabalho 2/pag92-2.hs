@@ -1,7 +1,7 @@
 {-
 Uma funcao que informa todas as pessoas que tomaram emprestado um determinado
 livro.
-base 
+base - EPC5 e pag 78 uso de if's
 -}
 
 type Pessoa = String
