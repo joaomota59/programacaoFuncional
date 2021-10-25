@@ -4,4 +4,4 @@ de listas e um teste de igualdade?
 -}
 
 membro :: [Int] -> Int -> Bool
-membro lista num = or [True | numero <-lista, numero == num]
+membro lista num = or [numero == num | numero <-lista]
