@@ -3,5 +3,6 @@ Como a funcao membro :: [Int] -> Int -> Bool pode ser definida usando compreensa
 de listas e um teste de igualdade?
 -}
 
+
 membro :: [Int] -> Int -> Bool
 membro lista num = or [numero == num | numero <-lista]
